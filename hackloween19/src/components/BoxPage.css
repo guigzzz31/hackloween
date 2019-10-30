@@ -1,0 +1,24 @@
+body{
+    background:black;
+}
+
+.button{
+    background-color:white;
+    width: 190px;
+    height: 120px;
+    border:none;
+    margin:20px 45px;
+    border:1px dotted black;
+    /* box-shadow: 10px 5px 5px red; */
+}
+
+.button:hover{
+    background-color:red;
+}
+
+.buttonsToClick{
+   margin-top:60px;
+    
+    
+    
+}
