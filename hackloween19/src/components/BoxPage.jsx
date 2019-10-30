@@ -12,27 +12,27 @@ class BoxPage extends React.Component {
         return (
             <div className= "buttonsToClick">
                 <div className="buttonRang1">
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/Oops"><button className="button" type="button" >? </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
                 </div>
                 <div className="buttonRang2">
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/mybad"><button className="button" type="button" >? </button></Link>
+                  <Link to="/areyoulost"><button className="button" type="button" >? </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
                 </div>
                 <div className="buttonRang3">
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
                 </div>
                 <div className="buttonRang4">
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
                 </div>
                 <div className="buttonRang5">
-                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" >? </button></Link>
                 </div>
             </div>
         );

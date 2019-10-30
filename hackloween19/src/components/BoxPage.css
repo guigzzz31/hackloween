@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
 body{
     background:black;
 }
@@ -9,11 +12,13 @@ body{
     border:none;
     margin:20px 45px;
     border:1px dotted black;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 35px;
     /* box-shadow: 10px 5px 5px red; */
 }
 
 .button:hover{
-    background-color:red;
+    background-color:#B53014;
 }
 
 .buttonsToClick{
