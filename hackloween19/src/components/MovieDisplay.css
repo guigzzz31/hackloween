@@ -3,21 +3,41 @@
 
 .card {
   width: 40%;
-  border-radius: 3%;
+  border-radius: 15px;
   border-style: solid;
+  background-color: #ece5cd;
 }
 
-h1, h2 {
+.card h1, .card h2 {
   font-family: 'Lacquer', sans-serif;
   text-align: center;
   font-size: 35px;
 }
 
-p, a {
+.card p, .card a {
   font-family: 'Lacquer', sans-serif;
   text-align: center;
+  font-size: 25px;
+}
+
+a {
+  font-family: 'Lacquer', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #B53014;
 }
 
 html {
   background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkMovie {
+  text-decoration: none;
 }
