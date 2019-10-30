@@ -17,14 +17,14 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/pick" component={BoxPage} />
+        {/* <Route path="/pick" component={BoxPage} />
         <Route path="/movie" component={ApiPage} />
         <Route path="/oops" component={Haha1} />
         <Route path="/mybad" component={Haha2} />
         <Route path="/areyoulost" component={Haha3} />
         <Route path="/yesyouare" component={Haha4} />
         <Route path="/behindyou" component={Haha5} />
-        <Route path="/hereyougo" component={Haha6} />
+        <Route path="/hereyougo" component={Haha6} /> */}
       </Switch>
     </div>
   );
