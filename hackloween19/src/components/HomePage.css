@@ -17,6 +17,10 @@ h1, p {
   font-family: 'Lacquer', sans-serif;
 }
 
+Link {
+  text-decoration: none;
+}
+
 p {
   font-family: 'Nunito Sans', sans-serif;
   margin: 30px;
