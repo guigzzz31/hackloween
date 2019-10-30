@@ -11,7 +11,7 @@ function HomePage() {
     <h1>Welcome to hell</h1>
     <p>You're looking for a movie for your Halloween party?</p>
     <p>You've come to the right place.</p>
-    <h1><Link to="/pick">Come on in</Link></h1> 
+    <h1><Link to="/pick">Come on in</Link></h1>
     <Footer />
   </div>
   )
