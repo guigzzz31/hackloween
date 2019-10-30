@@ -24,7 +24,7 @@ function App() {
         <Route path="/areyoulost" component={Haha3} />
         <Route path="/yesyouare" component={Haha4} />
         <Route path="/behindyou" component={Haha5} />
-        <Route path="/hereyougo" component={Haha6} />
+        <Route path="/hereyougo" component={Haha6} /> 
       </Switch>
     </div>
   );
