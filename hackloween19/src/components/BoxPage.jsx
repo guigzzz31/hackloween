@@ -12,27 +12,27 @@ class BoxPage extends React.Component {
         return (
             <div className= "buttonsToClick">
                 <div className="buttonRang1">
-                    <button className="button" type="button" > </button>
-                    <button className="button" type="button" > </button>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
                 </div>
                 <div className="buttonRang2">
-                    <button className="button" type="button" > </button>
-                    <button className="button" type="button" > </button>
-                    <button className="button" type="button" > </button>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
                 </div>
                 <div className="buttonRang3">
-                    <button className="button" type="button" > </button>
-                    <button className="button" type="button" > </button>
-                    <button className="button" type="button" > </button>
-                    <button className="button" type="button" > </button>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
                 </div>
                 <div className="buttonRang4">
-                    <button className="button" type="button" > </button>
-                    <button className="button" type="button" > </button>
-                    <button className="button" type="button" > </button>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
                 </div>
                 <div className="buttonRang5">
-                    <button className="button" type="button" > </button>
+                  <Link to="/movie"><button className="button" type="button" > </button></Link>
                 </div>
             </div>
         );
