@@ -1,4 +1,5 @@
 import React from 'react';
+
 import gifZombie from './images/gifZombie.gif'
 import './HomePage.css';
 import { Link } from 'react-router-dom';

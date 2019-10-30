@@ -14,6 +14,4 @@ function MovieDisplay({ movie }) {
   )
 }
 
-
-
 export default MovieDisplay;
