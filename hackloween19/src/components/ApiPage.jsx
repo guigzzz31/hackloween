@@ -11,19 +11,18 @@ function getRandomMovie(min, max) {
 class ApiPage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { movie: '' };   
+    this.state = { movie: '' };
     this.getMovie = this.getMovie.bind(this);
   }
-
   componentDidMount() {
     this.getMovie();
   }
-
   getMovie() {
     axios
       .get("https://hackathon-wild-hackoween.herokuapp.com/movies")
       .then(response => response.data)
       .then(data => {
+        console.log(data.movies)
         this.setState({
           movie: data.movies[getRandomMovie(1, 82)]
         });
@@ -37,4 +36,13 @@ class ApiPage extends React.Component {
     )
   }
 }
+
+
 export default ApiPage;
+
+
+
+
+
+
+

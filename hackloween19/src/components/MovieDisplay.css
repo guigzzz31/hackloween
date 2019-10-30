@@ -1,26 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
 .card {
   width: 40%;
-  height: 200px;
   border-radius: 3%;
-  
+  border-style: solid;
 }
-.container {
-  display: flex;
-  justify-content: center;
-}
+
 h1, h2 {
   font-family: 'Lacquer', sans-serif;
   text-align: center;
   font-size: 35px;
 }
-p {
-  font-family: 'Nunito Sans', sans-serif;
+
+p, a {
+  font-family: 'Lacquer', sans-serif;
+  text-align: center;
 }
+
 html {
   background-color: black;
 }
-
-
-
