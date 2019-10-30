@@ -9,6 +9,7 @@ import Haha3 from './components/Haha3';
 import Haha4 from './components/Haha4';
 import Haha5 from './components/Haha5';
 import Haha6 from './components/Haha6';
+import MovieDisplay from './components/MovieDisplay'
 
 import './App.css';
 
