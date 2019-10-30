@@ -1,6 +1,6 @@
 import React from 'react';
 import './BoxPage.css';
-
+import { Link } from 'react-router-dom';
 
 class BoxPage extends React.Component {
     constructor() {
