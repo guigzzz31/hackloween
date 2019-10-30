@@ -10,7 +10,7 @@ function MovieDisplay({ movie }) {
       <img width="100%" src={movie.posterUrl} alt={movie.title && movie.title.replace(/_/g, " ")} />
       <p>By {movie.director && movie.director.replace(/_/g, " ")}</p>
       <p>{movie.country && movie.country.replace(/_/g, " ")}</p>
-      <Link to="/">Another Link</Link>
+      <Link to="/pick">Another Link</Link>
     </div>
   )
 }
