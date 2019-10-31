@@ -42,7 +42,7 @@ body{
 
 .buttonsToClick{
   margin-top:60px;
-  animation: fade-in 1s forwards linear;   
+  animation: fade-in 2s forwards linear;   
 }
 @keyframes fade-in {
   0% { opacity: 0; }
