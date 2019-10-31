@@ -8,7 +8,6 @@ import Haha2 from './components/Haha2';
 import Haha3 from './components/Haha3';
 import Haha4 from './components/Haha4';
 import Haha5 from './components/Haha5';
-import Haha6 from './components/Haha6';
 import './App.css';
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
         <Route path="/areyoulost" component={Haha3} />
         <Route path="/yesyouare" component={Haha4} />
         <Route path="/behindyou" component={Haha5} />
-        <Route path="/hereyougo" component={Haha6} />
       </Switch>
     </div>
   );
