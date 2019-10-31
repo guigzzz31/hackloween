@@ -40,3 +40,7 @@ html {
 .linkMovie {
   text-decoration: none;
 }
+
+.linkContainer{
+  margin-top:25px;
+}
