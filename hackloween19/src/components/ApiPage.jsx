@@ -22,7 +22,6 @@ class ApiPage extends React.Component {
       .get("https://hackathon-wild-hackoween.herokuapp.com/movies")
       .then(response => response.data)
       .then(data => {
-        console.log(data.movies)
         this.setState({
           movie: data.movies[getRandomMovie(1, 82)]
         });
