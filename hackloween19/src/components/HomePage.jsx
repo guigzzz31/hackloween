@@ -11,6 +11,7 @@ function HomePage() {
     <h1>Welcome to hell</h1>
     <p>You're looking for a movie for your Halloween party?</p>
     <p>You've come to the right place.</p>
+    <p>Yet beware... You might not get out of here.</p>
     <h1><NavLink to="/pick" className="linkCss">Come on in</NavLink></h1>
     <Footer />
   </div>

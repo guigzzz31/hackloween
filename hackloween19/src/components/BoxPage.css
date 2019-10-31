@@ -17,6 +17,15 @@ body{
     /* box-shadow: 10px 5px 5px red; */
 }
 
+.no-top{
+  margin-top:20px;
+}
+
+.buttonsToClick > h1 {
+  color: white;
+  font-family: 'Lacquer', sans-serif;
+}
+
 .button:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -41,7 +50,7 @@ body{
 }
 
 .buttonsToClick{
-  margin-top:60px;
+  /* margin-top:60px; */
   animation: fade-in 2s forwards linear;   
 }
 @keyframes fade-in {

@@ -6,7 +6,7 @@ import Footer from './Footer'
 function MainBox2() {
   return(
   <div className="homepage">
-    <img className="gif" src={} alt=""/>
+    <img className="gif" alt=""/>
     <h1>You're still here?</h1>
     <p>....</p>
     <h1><NavLink to="/doyoulike" className="linkCss">Try again</NavLink></h1>

@@ -13,7 +13,6 @@ import MainBox2 from './components/MainBox2';
 import MainBox3 from './components/MainBox3';
 import MainBox4 from './components/MainBox4';
 import MainBox5 from './components/MainBox5';
-import MainBox6 from './components/MainBox6';
 import './App.css';
 
 function App() {
@@ -33,7 +32,6 @@ function App() {
         <Route path="/doyoulike" component={MainBox3} />
         <Route path="/heresjohnny" component={MainBox4} />
         <Route path="/itsalive" component={MainBox5} />
-        <Route path="/hereyougo" component={MainBox6} />
       </Switch>
     </div>
   );
