@@ -3,16 +3,16 @@ import './Troll.css';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer'
 
-function Haha4() {
+function MainBox3() {
   return(
   <div className="homepage">
     <img className="gif" src={} alt=""/>
-    <h1>...</h1>
+    <h1>Do you like scary movies?</h1>
     <p>....</p>
-    <h1><NavLink to="/pick" className="linkCss">Try again</NavLink></h1>
+    <h1><NavLink to="/heresjohnny" className="linkCss">Try again</NavLink></h1>
     <Footer />
   </div>
   )
 }
 
-export default Haha4;
+export default MainBox3;

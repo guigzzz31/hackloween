@@ -4,7 +4,7 @@ import './Troll.css';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer'
 
-function HomePage() {
+function Haha3() {
   return(
   <div className="homepage">
     <img className="gif" src={gifClown} alt="zombie coming out of the earth"/>
@@ -16,4 +16,4 @@ function HomePage() {
   )
 }
 
-export default HomePage;
+export default Haha3;
