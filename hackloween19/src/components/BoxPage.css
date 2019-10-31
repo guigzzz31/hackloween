@@ -50,7 +50,7 @@ body{
     background-color:#B53014;
     /* cursor:pointer; */
     /* cursor: url('./images/mycursor1.png');  */
-    cursor: url(images/mycursor1.png) 4 12, crosshair;
+    cursor: url('./images/hand3.png'), pointer;
 }
 
 .buttonsToClick{
