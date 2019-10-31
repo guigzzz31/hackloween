@@ -33,11 +33,14 @@ html {
 
 .container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 .linkMovie {
   text-decoration: none;
+}
+
+.linkContainer{
+  margin-top:25px;
 }
