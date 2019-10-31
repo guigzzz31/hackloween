@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 
+
 body{
     background:black;
 }
@@ -38,11 +39,15 @@ body{
 
 .button:hover{
     background-color:#B53014;
+    /* cursor:pointer; */
+    /* cursor: url('./images/mycursor1.png');  */
+    cursor: url(images/mycursor1.png) 4 12, crosshair;
 }
 
 .buttonsToClick{
   margin-top:60px;
   animation: fade-in 2s forwards linear;   
+ 
 }
 @keyframes fade-in {
   0% { opacity: 0; }

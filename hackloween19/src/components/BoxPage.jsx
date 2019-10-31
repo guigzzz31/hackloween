@@ -2,6 +2,7 @@ import React from 'react';
 import './BoxPage.css';
 import { Link } from 'react-router-dom';
 
+
 class BoxPage extends React.Component {
     constructor() {
         super()
@@ -12,7 +13,7 @@ class BoxPage extends React.Component {
         return (
             <div className= "buttonsToClick">
                 <div className="buttonRang1">
-                  <Link to="/Oops"><button className="button" type="button" >? </button></Link>
+                  <Link to="/Oops"><button className="button" type="button"  >? </button></Link>
                   <Link to="/movie"><button className="button" type="button" >? </button></Link>
                 </div>
                 <div className="buttonRang2">
