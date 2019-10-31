@@ -12,7 +12,7 @@ function MovieDisplay({ movie }) {
         <p>By {movie.director && movie.director.replace(/_/g, " ")}</p>
         <p>{movie.country && movie.country.replace(/_/g, " ")}</p>
       </div>
-      <div>
+      <div className="linkContainer">
         <NavLink className="linkMovie" to="/pick">Try again</NavLink>
       </div>
     </div>

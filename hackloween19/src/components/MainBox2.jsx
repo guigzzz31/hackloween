@@ -1,16 +1,15 @@
 import React from 'react';
 import './Troll.css';
 import { NavLink } from 'react-router-dom';
-import Footer from './Footer'
+import gifHouse from './images/gifHouse.gif';
 
 function MainBox2() {
   return(
-  <div className="homepage">
-    <img className="gif" alt=""/>
+  <div className="troll-page">
+    <img className="gif" src={gifHouse} alt=""/>
     <h1>You're still here?</h1>
-    <p>....</p>
-    <h1><NavLink to="/doyoulike" className="linkCss">Try again</NavLink></h1>
-    <Footer />
+    <p>You need to go back the entrance.</p>
+    <h1><NavLink to="/doyoulike" className="linkCss">It's this way</NavLink></h1>
   </div>
   )
 }
