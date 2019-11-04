@@ -2,7 +2,7 @@ import React from 'react';
 import gifOeil from './images/gifOeil.gif'
 import './HomePage.css';
 import { NavLink } from 'react-router-dom';
-import Footer from './Footer'
+
 
 function HomePage() {
   return(
@@ -13,7 +13,6 @@ function HomePage() {
     <p>You've come to the right place.</p>
     <p>Yet beware... You might not get out of here.</p>
     <h1><NavLink to="/pick" className="linkCss">Come on in</NavLink></h1>
-    <Footer />
   </div>
   )
 }
