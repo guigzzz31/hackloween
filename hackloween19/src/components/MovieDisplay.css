@@ -12,6 +12,7 @@
   font-family: 'Lacquer', sans-serif;
   text-align: center;
   font-size: 35px;
+  margin: 0;
 }
 
 .card p, .card a {
@@ -42,5 +43,5 @@ html {
 }
 
 .linkContainer{
-  margin-top:25px;
+  margin-top:10px;
 }
